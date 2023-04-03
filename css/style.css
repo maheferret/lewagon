@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css?family=Lora|Roberto");
+
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+
+
+body {
+	font-family: 'Lora', sans-serif;
+	font-size: 18px;
+	margin: 0px;
+	background-color: rgb(255, 255, 255);
+}
+h1 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	text-align: left-center;
+}
+h2 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+}
+h3 {
+	align-items: left-center;
+}
+a {
+	text-decoration: none;
+}
+img {
+	border-radius: 1%;
+}
+
+ul{
+	font-size: 22px;
+	width: 400px;
+}
+
+li {
+	align-content: center ;
+	color: black;
+}
+a {
+	text-decoration: none;
+	color: black;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 600px;
+	font-size: 16px;
+}
+a:hover {
+	color: #6096B4;
+}
+
+hr {
+	width: 800px;
+}
+
+.bas-de-page{
+  background-color: rgb(24, 142, 155); /* couleur de fond de la zone entre les lignes */
+}
+
+
+p {
+	font-family: Montserrat,sans-serif;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+.list-inline i:hover {
+	color: #6096B4;
+}
+.list-inline i {
+	font-size: 50px;
+	color: lightgrey;
+}
+
+.Informations {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 50px;
+}
+
+.Sections {
+	display: flex;
+	flex-basis: 1px;
+	flex-grow: 1;
+	margin: 20px;
+	justify-content: space-around;
+	align-items: left;
+	padding: 20px;
+	flex-direction: column;
+}
+
+.fv-download-app__wrapper{
+	margin: 20px;
+}
+
+.fv-download-app-list__item{
+	list-style: none;
+}
+
+li {
+	list-style: none;
+}
